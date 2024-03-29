@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/dserobabin/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/dserobabin/frontend-project-lvl1/actions)",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "main": "index.js",
   "type": "module",
@@ -22,5 +23,10 @@
   "homepage": "https://github.com/dserobabin/frontend-project-lvl1#readme",
   "dependencies": {
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1"
   }
 }
